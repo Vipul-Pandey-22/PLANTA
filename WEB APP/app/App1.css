@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+	@font-face {
+  font-family: usefont;
+  src: url("../fonts/HarlequinFLF.ttf");
+  font-weight: bold;
+}
+
+*{
+	font-family: usefont;
+}
+
+/*.container {
+  position: relative;
+  text-align: center;
+  color: black;
+	
+}*/
+
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+	font-family: usefont;
+	
+  font-size: 45px;
+	color: green;
+}
+
